@@ -1,0 +1,41 @@
+:root {
+  --pink: #f472b6;
+}
+
+body {
+  background-color: var(--pink);
+  font-family: "Lobster", cursive;
+  margin-left: 5rem;
+}
+
+.container {
+  width: 500px;
+  margin: auto;
+}
+
+.heading {
+  margin-top: 5rem;
+  font-size: 2rem;
+}
+
+.label {
+  align-self: inherit;
+  font-size: larger;
+}
+
+.input {
+  margin: 10px 0px;
+  width: 40%;
+  padding: 6px;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+
+#check-number {
+  margin: 10px 0px;
+  padding: 6px;
+  border: 2px solid black;
+  border-radius: 8px;
+  width: 30%;
+  font-family: "Lobster", cursive;
+}
